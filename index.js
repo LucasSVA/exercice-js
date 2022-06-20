@@ -99,11 +99,31 @@
 
 //const permission = "We are allowed to wear shorts to school!"
 
-// console.log(permission.endsWith("school!", 40));
+// console.log(permission.endsWith("school!", 40));  (true)
 
-// console.log(permission.endsWith("allowed", 14));
+// console.log(permission.endsWith("allowed", 14));  (true)
 
-//console.log(permission.endsWith("forbidden", 14));    (shoud be - false)
+//console.log(permission.endsWith("forbidden", 14));    ( false)
+
+
+// ----- bonus-5
+
+
+
+// console.log(String.fromCharCode(10, 122, 75));                   (j'en vois pas l'utilité))
+// console.log(String.fromCodePoint(9290, 9712, 9123));
+
+// ----- bonus - 6
+
+// const meteo = "torday is a cloudy day"
+
+// console.log(meteo.includes("cloudy"));     (true)
+
+//let word = "cloudy"
+
+//console.log(`the word "${word}" ${meteo.includes(word) ? 'is' : 'is not '} in the sentence `);
+
+
 
 
 
